@@ -70,7 +70,7 @@ $states=[ "Andhra Pradesh",
                         @php $total+=$item['quantity']*$item['price'];@endphp
                         <div class="product-info row">
                             <div class="col-md-6">
-                                <img src="{{asset('assets/front/images/product-img/cloud-pi.png')}}" data-src="{{asset('assets/front/images/product-img/cloud-pi.png')}}" class="img-fluid b-lazy" alt="video thumbnail">
+                                <img src="{{asset('assets/front/images/product-img/clod-pi.png')}}" data-src="{{asset('assets/front/images/product-img/clod-pi.png')}}" class="img-fluid b-lazy" alt="video thumbnail">
                             </div>
                             <div class="col-md-6">
                                 <table class="table order-details-table">
@@ -84,7 +84,7 @@ $states=[ "Andhra Pradesh",
                                     </tr>
                                     <tr>
                                         <th>Grand Total:</th>
-                                        <th>{{number_format($total)}}</th>
+                                        <th>{{$total}}</th>
                                     </tr>
                                 </table>
                             </div>
@@ -93,7 +93,7 @@ $states=[ "Andhra Pradesh",
                     @else
                     <div class="product-info row">
                         <div class="col-md-6">
-                            <img src="{{asset('assets/front/images/product-img/cloud-pi.png')}}" data-src="{{asset('assets/front/images/product-img/cloud-pi.png')}}" class="img-fluid b-lazy" alt="video thumbnail">
+                            <img src="{{asset('assets/front/images/product-img/clod-pi.png')}}" data-src="{{asset('assets/front/images/product-img/clod-pi.png')}}" class="img-fluid b-lazy" alt="video thumbnail">
                         </div>
                         <div class="col-md-6">
                             <table class="table order-details-table">
@@ -102,12 +102,12 @@ $states=[ "Andhra Pradesh",
                                     <th>Price</th>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
-                                    <td>599</td>
+                                    <td>1</td>
+                                    <td>9999</td>
                                 </tr>
                                 <tr>
                                     <th>Grand Total:</th>
-                                    <th>1198</th>
+                                    <th>9999</th>
                                 </tr>
                             </table>
                         </div>
